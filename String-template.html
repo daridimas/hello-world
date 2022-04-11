@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>String Template</title>
+</head>
+<body>
+<script>
+    const name = "Eko Kurniawan Khannedy";
+    const template = `Name : ${name}`;
+
+    const firstName = "Eko";
+    const middleName = "Kurniawan";
+    const lastName = "Khannedy";
+
+    const template1 = `Name : ${firstName} ${middleName} ${lastName}`;
+    console.info(template);
+    console.info(template1);
+
+    const nilai = 90;
+    const template2 = `Name : ${name}, lulus : ${nilai > 70}`;
+    console.info(template2);
+
+    let multiline = `Nama Saya Eko,
+Sekarang kerja,
+Sering juga bikin konten Programming
+Kalo lagi males, paling tidur`
+
+    document.writeln("<pre>");
+    document.writeln(multiline);
+    document.writeln("</pre>");
+
+</script>
+</body>
+</html>
